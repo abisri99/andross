@@ -1,0 +1,26 @@
+@font-face {
+        font-family: JetBrainsMono Bold;
+        src: url(fonts/JetBrainsMono-Bold.woff2);
+}
+
+@font-face {
+        font-family: JetBrainsMono;
+        src: url(fonts/JetBrainsMono-Regular.woff2);
+}
+body{
+	background-color:#101010;
+}
+
+header{
+	background-color:#dedede;
+
+	margin: 4% 30% 3% 0%;
+	padding: 3% 10% 3% 3%;
+
+	font-family:JetBrainsMono Bold;
+	letter-spacing:4px;
+}
+
+header p{
+	font-family:JetBrainsMono
+}
