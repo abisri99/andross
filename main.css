@@ -16,9 +16,9 @@ body{
 }
 
 header{
-	background-color:#eeeeee;
+	background-color:#eeeeee !important;
 
-	margin: 4% 30% 4% 0%;
+	margin: 4% 20% 4% 0%;
 	padding: 4% 10% 4% 4%;
 
 	font-family:JetBrainsMono Bold;
@@ -32,14 +32,14 @@ header p{
 
 main h2{
 	background-color:#eeeeee;
-	margin: 1% 30% 0% 1%;
+	margin: 1% 20% 0% 1%;
 	padding: 1% 20% 1% 1%;
 	font-size:90%;
 	color:#101010;
 }
 
 main p{
-	margin: 1% 30% 2% 2%;
+	margin: 1% 20% 2% 2%;
 	padding: 1% 1% 3% 1%;
 	font-size:80%;
 }
