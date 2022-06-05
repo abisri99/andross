@@ -33,7 +33,7 @@ header p{
 main h2{
 	background-color:#eeeeee;
 	margin: 1% 10% 5% 10%;
-	padding: 1% 1% 1% 1%;
+	padding: 1% 2% 1% 2%;
 	font-size:90%;
 	color:#101010;
 }
@@ -41,7 +41,8 @@ main h2{
 main h3{
 	background-color:#eeeeee;
 	margin: 1% 40% 3% 40%;
-	padding: 1% 1% 1% 8%;
+	text-align:center;
+	padding: 1% 2% 1% 2%;
 	font-size:80%;
 	color:#101010;
 }
