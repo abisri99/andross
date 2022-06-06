@@ -1,13 +1,4 @@
-@font-face {
-        font-family: JetBrainsMono Bold;
-        src: url(fonts/JetBrainsMono-Bold.woff2);
-}
-
-@font-face {
-        font-family: JetBrainsMono;
-        src: url(fonts/JetBrainsMono-Regular.woff2);
-}
-
+@import url(fonts.css);
 
 body{
 	background-color:#101010 !important;
@@ -19,10 +10,10 @@ header{
 	background-color:#eeeeee !important;
 
 	margin: 5% 10% 5% 10%;
-	padding: 4% 10% 5% 4%;
+	padding: 5% 10% 5% 5%;
 
 	font-family:JetBrainsMono Bold;
-	letter-spacing:4px;
+	letter-spacing:5px;
 	color:#101010;
 }
 
@@ -32,7 +23,7 @@ header p{
 
 main h2{
 	background-color:#eeeeee;
-	margin: 1% 10% 5% 10%;
+	margin: 0% 10% 5% 10%;
 	padding: 1% 2% 1% 2%;
 	font-size:90%;
 	color:#101010;
@@ -40,7 +31,7 @@ main h2{
 
 main h3{
 	background-color:#eeeeee;
-	margin: 1% 40% 3% 40%;
+	margin: 5% 40% 3% 40%;
 	text-align:center;
 	padding: 1% 2% 1% 2%;
 	font-size:80%;
@@ -54,11 +45,25 @@ main p{
 }
 
 main li{
-	margin: 0% 10% 0% 10%;
 	font-size:80%;
+	padding:1% 1% 1% 1%;
+	margin: 7% 70% 5% 0%;
+	border-width:1px;
+	border-style:solid;
 }
 
-a{  
-	text-decoration: none;  
+ul{
+	margin:1% 30% 0% 10%;
+}
+
+ul p{
+	margin:1% 10% 0% 0%;
+}
+
+ul a{  
 	color: #ffffff;  
-}  
+	font-size:70%;
+	margin:0% 0% 10% 0%;
+}
+
+a:hover { text-decoration: underline; }
