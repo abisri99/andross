@@ -46,7 +46,8 @@ main p{
 
 main li{
 	font-size:80%;
-	padding:1% 1% 1% 1%;
+	text-align:center;
+	padding:1% 1% 1% 2%;
 	margin: 7% 70% 5% 0%;
 	border-width:1px;
 	border-style:solid;
@@ -54,6 +55,7 @@ main li{
 
 ul{
 	margin:1% 30% 0% 10%;
+	list-style:none;
 }
 
 ul p{
@@ -67,3 +69,22 @@ ul a{
 }
 
 a:hover { text-decoration: underline; }
+
+.collapsible {
+	cursor: pointer;
+	border: none;
+	text-align: center;
+	outline: none;
+	margin:10% 10% 10% 10%;
+	padding:1% 1% 1% 1%;
+	width:80%;
+}
+
+.active, .collapsible:hover {
+  	background-color: #ccc;
+ }
+
+.list {
+	display: none;
+	overflow: hidden;
+ } 
